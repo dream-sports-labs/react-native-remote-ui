@@ -108,11 +108,13 @@
   },
   "release-it": {
     "git": {
+      "requireCleanWorkingDir": true,
       "commitMessage": "chore: release ${version}",
       "tagName": "v${version}"
     },
     "npm": {
-      "publish": true
+      "publish": true,
+      "tag": "latest"
     },
     "github": {
       "release": true
