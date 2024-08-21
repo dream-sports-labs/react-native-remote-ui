@@ -49,7 +49,7 @@
   "bugs": {
     "url": "https://github.com/dream-sports-labs/react-native-remote-ui/issues"
   },
-  "homepage": "hhttps://github.com/dream-sports-labs/react-native-remote-ui#readme",
+  "homepage": "https://github.com/dream-sports-labs/react-native-remote-ui#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
