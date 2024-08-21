@@ -26,7 +26,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "prepack": "yarn release",
+    "prepack": "yarn prepare",
     "example": "yarn workspace react-native-remote-component-example",
     "test": "jest",
     "typecheck": "tsc --noEmit",
