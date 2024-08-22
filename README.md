@@ -7,7 +7,7 @@ Remote Component are babel transpiled source code of tsx or jsx, which is execut
 ## Installation
 
 ```sh
-npm install react-native-remote-ui
+npm install @d11/react-native-remote-ui
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ npm install react-native-remote-ui
 
 import * as React from 'react';
 import { View } from 'react-native';
-import { RemoteComponent } from 'react-native-remote-ui';
+import { RemoteComponent } from '@d11/react-native-remote-ui';
 
 const FallbackComponent = () => {
   return (
@@ -61,7 +61,7 @@ import { View } from 'react-native';
 import {
   RemoteComponent,
   preloadRemoteComponent,
-} from 'react-native-remote-ui';
+} from '@d11/react-native-remote-ui';
 
 export default function App() {
   // make sure to preload before actual usage

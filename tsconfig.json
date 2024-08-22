@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-remote-ui": ["./src/index"]
+      "@d11/react-native-remote-ui": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
